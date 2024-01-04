@@ -6,11 +6,14 @@
 
 
 # Classes
-| | Столбец 2| Столбец 3|
-|----------|----------|----------|
-| Ячейка 1 | Ячейка 2 | Ячейка 3 |
-| Ячейка 4 | Ячейка 5 | Ячейка 6 |
-| Ячейка 7 | Ячейка 8 | Ячейка 9 |
+| Media | User |
+|----------|----------|
+| get media id | user following |
+| get user medias | user followers |
+| get media info | follow user |
+| get media likers | unfollow user |
+| like media | get user_id |
+| unlike media | None |
 
 
 Этот текст является заголовком уровня 2.
