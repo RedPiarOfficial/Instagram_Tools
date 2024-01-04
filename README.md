@@ -2,7 +2,7 @@
 
 ![Welcome](https://i.pinimg.com/originals/06/80/81/068081ee5b913a47003a64f7233825fe.gif)
 
-[На главную](/#Classes/#test)
+[На главную](/#test)
 
 
 # Classes
