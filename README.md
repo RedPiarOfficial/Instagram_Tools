@@ -5,7 +5,7 @@
 Before starting, you will need to [log](/#login) in to your account or load your data from [settings.ini]("/#settings.ini")
 
 # Classes
-| Media | User |
+| [Media](/#Media) | User |
 |----------|----------|
 | get media id | user following |
 | get user medias | user followers |
@@ -20,8 +20,9 @@ To log in to your account, you should run the main.py script, then choose option
 ### settings.ini
 If you have already [log](/#login) into your account using login and chosen to save account data in settings.ini, you can quickly log in by selecting option 2 (load settings.ini). After a short wait, you will receive a message confirming the login.
 
+# Media
+Media - this class is designed for interacting with media posts. Using this class, you can obtain media ID, like posts, and perform other related actions.
 
-Этот текст является заголовком уровня 3.
 
 **Это жирный шрифт.**
 _Это подчеркивание._
