@@ -9,7 +9,7 @@ Before starting, you will need to [log](/#login) in to your account or load your
 |----------|----------|
 | [get media id](/#Get_Media_Id) | user following |
 | [get user medias](/#Get_User_Medias) | user followers |
-| get media info | follow user |
+| [get media info](/#Get_Media_Info) | follow user |
 | get media likers | unfollow user |
 | like media | get user_id |
 | unlike media | None |
