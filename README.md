@@ -33,3 +33,6 @@ Media - this class is designed for interacting with media posts. Using this clas
 With this function, we obtain the post ID in Instagram Tools, and the post ID is automatically detected in each function! Also, after obtaining the ID, there will be a message 'Save media_id to buffer?' If you choose 'Y,' the media ID will be saved to your clipboard
 
 ### Get_User_Medias
+With this function, you can retrieve all posts from any public profile. Afterward, all the data is saved to a .txt file in a table format within the ./medias/user_medias directory.
+
+### Get_Media_Info
