@@ -8,7 +8,7 @@ Before starting, you will need to [log](/#login) in to your account or load your
 | [Media](/#Media) | User |
 |----------|----------|
 | [get media id](/#Get_Media_Id) | user following |
-| get user medias | user followers |
+| [get user medias](/#Get_User_Medias) | user followers |
 | get media info | follow user |
 | get media likers | unfollow user |
 | like media | get user_id |
@@ -32,4 +32,4 @@ Media - this class is designed for interacting with media posts. Using this clas
 ### Get_Media_Id
 With this function, we obtain the post ID in Instagram Tools, and the post ID is automatically detected in each function! Also, after obtaining the ID, there will be a message 'Save media_id to buffer?' If you choose 'Y,' the media ID will be saved to your clipboard
 
-
+### Get_User_Medias
