@@ -66,3 +66,24 @@ Remove a like from a post via the link.
 > params: link
 
 # User
+User - This class is used for interacting with the user and is also utilized for automation on their behalf.
+
+> Functions: 5
+> 
+> version: 1.0.0beta
+> 
+> testing: True
+
+### User_Following
+This function shows who the user is following
+
+There are two options:
+
+1. Enter a username
+2. Enter 'im' and get your own following list.
+
+> login required
+>
+> params: username
+
+### user_followers
