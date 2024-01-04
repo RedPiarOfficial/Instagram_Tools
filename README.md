@@ -7,11 +7,11 @@ Before starting, you will need to [log](/#login) in to your account or load your
 # Classes
 | [Media](/#Media) | [User](/#User) |
 |----------|----------|
-| [get media id](/#Get_Media_Id) | user following |
-| [get user medias](/#Get_User_Medias) | user followers |
-| [get media info](/#Get_Media_Info) | follow user |
-| [get media likers](/#Get_Media_Likers) | unfollow user |
-| [like media](/#Like_Media) | get user_id |
+| [get media id](/#Get_Media_Id) | [user following](/#User_Following) |
+| [get user medias](/#Get_User_Medias) | [user followers](/#User_Followers) |
+| [get media info](/#Get_Media_Info) | [follow user](/#Follow_User) |
+| [get media likers](/#Get_Media_Likers) | [unfollow user](/#Unfollow_User) |
+| [like media](/#Like_Media) | [get user id](/#Get_User_Id) |
 | [unlike media](/#Unlike_Media) | None |
 
 # login
@@ -97,3 +97,22 @@ This function shows the followers of the user's account.
 > params: username
 
 ### Follow_User
+This function allows you to follow a user through the script.
+
+> login required
+>
+> params: username
+
+### Unfollow_User
+This function allows you to unfollow a user through the script.
+
+> login required
+>
+> params: username
+
+### Get_User_Id
+This function retrieves the user ID using the username, and there is an option to save the ID to the clipboard
+
+> login required
+>
+> params: username
