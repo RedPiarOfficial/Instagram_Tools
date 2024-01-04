@@ -7,7 +7,7 @@ Before starting, you will need to [log](/#login) in to your account or load your
 # Classes
 | [Media](/#Media) | User |
 |----------|----------|
-| get media id | user following |
+| [get media id](/#Get_Media_Id) | user following |
 | get user medias | user followers |
 | get media info | follow user |
 | get media likers | unfollow user |
@@ -22,47 +22,14 @@ If you have already [log](/#login) into your account using login and chosen to s
 
 # Media
 Media - this class is designed for interacting with media posts. Using this class, you can obtain media ID, like posts, and perform other related actions.
-| [Media](/#Media)  |
-|---------------------|
-| get media id |
-| get user medias |
-| get media info |
-| get media likers |
-| like media |
-| unlike media |
 
-<div style="width: 100%;">
+> Functions: 6
+> 
+> version: 1.0.0
+> 
+> testing: True
 
-  <div style="float: left;">
-    <table>
-      | Столбец 1 | Столбец 2 |
-      |---|---|
-      | Ячейка 1 | Ячейка 2 |
-      | Ячейка 3 | Ячейка 4 |
-    </table>
-  </div>
-
-  <div style="float: right;">
-    <table>
-      | Столбец 1 | Столбец 2 |
-      |---|---|
-      | Ячейка 5 | Ячейка 6 |
-      | Ячейка 7 | Ячейка 8 |
-    </table>
-  </div>
-
-</div>
-
-**Это жирный шрифт.**
-_Это подчеркивание._
-
-- Это маркированный список.
-* Это тоже маркированный список.
-
-1. Это нумерованный список.
-2. Это тоже нумерованный список.
-
-> Это цитата.
+### Get_Media_Id
+With this function, we obtain the post ID in Instagram Tools, and the post ID is automatically detected in each function! Also, after obtaining the ID, there will be a message 'Save media_id to buffer?' If you choose 'Y,' the media ID will be saved to your clipboard
 
 
-### test
