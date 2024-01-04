@@ -22,7 +22,36 @@ If you have already [log](/#login) into your account using login and chosen to s
 
 # Media
 Media - this class is designed for interacting with media posts. Using this class, you can obtain media ID, like posts, and perform other related actions.
+| [Media](/#Media)  |
+|---------------------|
+| get media id |
+| get user medias |
+| get media info |
+| get media likers |
+| like media |
+| unlike media |
 
+<div style="width: 100%;">
+
+  <div style="float: left;">
+    <table>
+      | Столбец 1 | Столбец 2 |
+      |---|---|
+      | Ячейка 1 | Ячейка 2 |
+      | Ячейка 3 | Ячейка 4 |
+    </table>
+  </div>
+
+  <div style="float: right;">
+    <table>
+      | Столбец 1 | Столбец 2 |
+      |---|---|
+      | Ячейка 5 | Ячейка 6 |
+      | Ячейка 7 | Ячейка 8 |
+    </table>
+  </div>
+
+</div>
 
 **Это жирный шрифт.**
 _Это подчеркивание._
