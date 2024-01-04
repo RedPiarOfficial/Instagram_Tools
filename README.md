@@ -86,4 +86,14 @@ There are two options:
 >
 > params: username
 
-### user_followers
+### User_Followers
+This function shows the followers of the user's account.
+
+1. Enter a username
+2. Enter 'im' and get your own following list.
+
+> login required
+>
+> params: username
+
+### Follow_User
