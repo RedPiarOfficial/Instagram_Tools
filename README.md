@@ -5,7 +5,7 @@
 Before starting, you will need to [log](/#login) in to your account or load your data from [settings.ini]("/#settings.ini")
 
 # Classes
-| [Media](/#Media) | User |
+| [Media](/#Media) | [User](/#User) |
 |----------|----------|
 | [get media id](/#Get_Media_Id) | user following |
 | [get user medias](/#Get_User_Medias) | user followers |
@@ -64,3 +64,5 @@ Remove a like from a post via the link.
 > login required
 >
 > params: link
+
+#User
