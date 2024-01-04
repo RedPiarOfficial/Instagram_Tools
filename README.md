@@ -12,7 +12,7 @@ Before starting, you will need to [log](/#login) in to your account or load your
 | [get media info](/#Get_Media_Info) | follow user |
 | [get media likers](/#Get_Media_Likers) | unfollow user |
 | [like media](/#Like_Media) | get user_id |
-| unlike media | None |
+| [unlike media](/#Unlike_Media) | None |
 
 # login
 To log in to your account, you should run the main.py script, then choose option 1 (login), enter your username and password, and optionally select the **'save account data'** option
@@ -33,20 +33,34 @@ Media - this class is designed for interacting with media posts. Using this clas
 With this function, we obtain the post ID in Instagram Tools, and the post ID is automatically detected in each function! Also, after obtaining the ID, there will be a message 'Save media_id to buffer?' If you choose 'Y,' the media ID will be saved to your clipboard
 
 > login required
-
+>
+> params: link
 ### Get_User_Medias
 With this function, you can retrieve all posts from any public profile. Afterward, all the data is saved to a .txt file in a table format within the ./medias/user_medias directory.
 
 > login required
-
+>
+> params: link
 ### Get_Media_Info
 This function retrieves complete information about a post through a link and then saves this information to a file in table format within the ./medias/media_info directory.
 
 > login required
-
+>
+> params: link
 ### Get_Media_Likers
 This function retrieves people up to the Instagram limit who have liked a post through the post link, then saves their information in table format to the ./users/ directory.
 
 > login required
-
+>
+> params: link
 ### Like_Media
+Like a post via the link.
+
+> login required
+>
+> params: link
+### Unlike_Media
+Remove a like from a post via the link.
+> login required
+>
+> params: link
