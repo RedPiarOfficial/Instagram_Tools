@@ -14,6 +14,15 @@ Before starting, you will need to [log](/#login) in to your account or load your
 | [like media](/#Like_Media) | [get user id](/#Get_User_Id) |
 | [unlike media](/#Unlike_Media) | None |
 
+| [Media](/#Exceptions) |
+|----------|
+| ClientLoginRequired |
+| ReloginAttemptExceeded |
+| RecaptchaChallengeForm |
+| MediaNotFound |
+| FeedbackRequired |
+| RateLimitError |
+
 # login
 To log in to your account, you should run the main.py script, then choose option 1 (login), enter your username and password, and optionally select the **'save account data'** option
 
@@ -116,3 +125,13 @@ This function retrieves the user ID using the username, and there is an option t
 > login required
 >
 > params: username
+
+
+# Exceptions
+
+1. ClientLoginRequired - Raised when Instagram required Login
+2. ReloginAttemptExceeded - Raised when all attempts exceeded
+3. RecaptchaChallengeForm - Raise when get challengeType=RecaptchaChallengeForm
+4. MediaNotFound - Raise when user unavailable
+5. FeedbackRequired - Raise when get message=feedback_required
+6. RateLimitError - Raise when get message=rate_limit_error
