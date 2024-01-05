@@ -14,7 +14,7 @@ Before starting, you will need to [log](/#login) in to your account or load your
 | [like media](/#Like_Media) | [get user id](/#Get_User_Id) |
 | [unlike media](/#Unlike_Media) | None |
 
-| [Media](/#Exceptions) |
+| [Exceptions](/#Exceptions) |
 |----------|
 | ClientLoginRequired |
 | ReloginAttemptExceeded |
